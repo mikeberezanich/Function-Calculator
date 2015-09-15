@@ -18,7 +18,6 @@ int main()
 	cout << "sqr(5): " << evaluate("sqr(5)", vars, funs) << endl;
 	cout << "Three = abs(0-3): " << evaluate("Three =  abs(0-3) ", vars, funs) << endl;
 	cout << "Fact(8): " << evaluate("fact(8)", vars, funs) << endl;
-	cout << "product(5): " << evaluate("product(3, 4, 0)", vars, funs) << endl;
 	cout << endl << "Try one yourself:  ";
 	cin.getline(userInput, 80);
 	cout << userInput << " = " << evaluate(userInput, vars, funs) << endl;
